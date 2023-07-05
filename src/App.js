@@ -6,6 +6,7 @@ import ansel from './img/ansel2.png'
 import team from './img/team.png'
 import { Form, Button } from 'react-bootstrap';
 import React, { useState } from 'react';
+import { Facebook, Telegram } from 'react-bootstrap-icons';
 
 
 function App() {
@@ -62,11 +63,14 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='footer'>
+      <div className='footer d-flex mx-2 my-1 justify-content-between'>
         <div className=''>
-          
+          <span>XGlobal Singapore Pte Ltd. Copyright 2023. All Rights Reserved</span>
         </div>
-        <div></div>
+        <div>
+          <Facebook className='mx-1' width={"3vw"} height={"3vw"}></Facebook>
+          <Telegram className='mx-1' width={"3vw"} height={"3vw"}></Telegram>
+        </div>
       </div>
     </div>
   );
