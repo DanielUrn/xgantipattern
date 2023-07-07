@@ -15,7 +15,7 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="">
-          <Nav className="align-items-center justify-content-around flex-grow-1">
+          <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
 
