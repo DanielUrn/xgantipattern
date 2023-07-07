@@ -7,13 +7,13 @@ import team from "../img/jeff2.png";
 const Home = () => {
   return (
     <div>
-      <Container className="pt-3">
+      <Container className="pt-5">
         <Row>
-          <Col lg>
+          <Col className="d-flex align-content-center" lg >
             <img className="w-75 m-auto" src={team} alt="Team pfps"></img>
           </Col>
           <Col lg>
-            <div className="p-2">
+            <div className="pt-2">
               <h2 className="text-muted">
                 We are <span className="fw-bold">XGlobal!</span>
               </h2>
