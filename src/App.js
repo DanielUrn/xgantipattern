@@ -23,11 +23,11 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <Navigation></Navigation>
       <Home></Home>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 

@@ -6,11 +6,11 @@ import team from "../img/jeff2.png";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex-grow-1 d-flex align-content-center flex-wrap">
       <Container className="pt-5">
         <Row>
           <Col className="d-flex align-content-center" lg >
-            <img className="w-75 m-auto" src={team} alt="Team pfps"></img>
+            <img className="m-auto h-100" src={team} alt="Team pfps"></img>
           </Col>
           <Col lg>
             <div className="pt-2">
