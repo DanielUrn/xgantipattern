@@ -22,8 +22,8 @@ const Navigation = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
 
             <Navbar.Brand href="#home" className="d-none d-lg-inline-block">
               <img
