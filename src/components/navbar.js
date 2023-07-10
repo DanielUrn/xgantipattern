@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../img/navbrand.png";
+import "../styles/navbar.css";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Navigation = () => {
   return (
-    <Navbar expand="lg" className="bg-primary" sticky="top">
+    <Navbar expand="lg" className="Nav" sticky="top">
       <Container>
         <Navbar.Brand href="#home" className="d-lg-none">
           <img 
@@ -13,7 +17,9 @@ const Navigation = () => {
             height={"50px"}>  
           </img>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" bsPrefix="" >
+          <FontAwesomeIcon icon={faBars} size="xl" className="outline-0 border-0" ></FontAwesomeIcon>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -28,8 +34,8 @@ const Navigation = () => {
               ></img>
             </Navbar.Brand>
 
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#link">Blog</Nav.Link>
+            <NavDropdown title="Litepaper" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action

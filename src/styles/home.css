@@ -1,0 +1,16 @@
+.content span {
+    color: #E9CA1A;
+}
+
+.content p {
+    color: white !important;
+}
+
+.content h2 {
+    color: #BCC1CA;
+}
+
+.content button {
+    background-color: #745F8A;
+    color: white;
+}

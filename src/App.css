@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+*{
+  color: #fff;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,8 +42,9 @@
 }
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: url('./img/back.png') ;
 }
