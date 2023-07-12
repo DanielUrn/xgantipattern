@@ -47,4 +47,15 @@
   flex-direction: column;
   justify-content: space-between;
   background: url('./img/back.png') ;
+  background-size: cover;
+}
+
+.yellow {
+  color: #E9CA1A;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
 }
