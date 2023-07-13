@@ -48,14 +48,51 @@
   justify-content: space-between;
   background: url('./img/back.png') ;
   background-size: cover;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('./fonts/Epilogue-Bold.ttf');
 }
 
 .yellow {
   color: #E9CA1A;
 }
 
+.carousel {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-content: center;
+}
+
 ul {
   list-style: none;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+ul, p {
+  font-family: 'Inter';
+  font-size: 1.5vw !important;
+}
+
+h1,h2,h3{
+  font-family: 'Epilogue';
+  font-size: 2vw !important;
+}
+
+@media (max-width: 1000px) {
+  ul, p {
+    font-size: 3vw !important;
+  }
+  
+  h1,h2,h3{
+    font-size: 4vw !important;
+  }
 }
