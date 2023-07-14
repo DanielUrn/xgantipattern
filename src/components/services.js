@@ -22,7 +22,7 @@ const Services = () => {
                     <Col lg='4' className='d-flex justify-content-center justify-md-content-end'>
                         <div>
                             <h2>Offerings</h2>
-                            <ul>
+                            <ul className='opacity-25'>
                                 <li>Operations</li>
                                 <li>Bussiness Development</li>
                                 <li>Community Management</li>
@@ -34,17 +34,17 @@ const Services = () => {
                     </Col>
                 </Row>
                 <Row className='gap-4'>
-                    <h2>Get In Touch</h2>
+                    <h2 className='semi'>Get In Touch</h2>
                     <Col lg>
                         <Row>
                             <Col>
                                 <img src={jeff} className='w-100'></img>
                             </Col>
                             <Col>
-                                <h3>Jeff Chau</h3>
+                                <h3 className='yellow semi'>Jeff Chau</h3>
                                 <ul>
                                     <li>CEO, XGlobal Consulting</li>
-                                    <li>jeff@xglobal.gg</li>
+                                    <li className='yellow'>jeff@xglobal.gg</li>
                                     <li>Telegram: @rip_xg</li>
                                 </ul>
                             </Col>
@@ -56,10 +56,10 @@ const Services = () => {
                                 <img src={ansel} className='w-100'></img>
                             </Col>
                             <Col>
-                                <h3>Ansel Gravelle</h3>
+                                <h3 className='yellow'>Ansel Gravelle</h3>
                                 <ul>
                                     <li>Principal Consultant, XGlobal Consulting</li>
-                                    <li>ansel@xglobal.gg</li>
+                                    <li className='yellow'>ansel@xglobal.gg</li>
                                     <li>Telegram: @ItsAnsel_ETH</li>
                                 </ul>
                             </Col>

@@ -66,8 +66,17 @@
   src: url('./fonts/Rajdhani-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'EpilogueSemi';
+  src: url('./fonts/Epilogue-Medium.ttf');
+}
+
 .yellow {
   color: #E9CA1A;
+}
+
+.semi{
+  font-family: 'EpilogueSemi';
 }
 
 .carousel {
