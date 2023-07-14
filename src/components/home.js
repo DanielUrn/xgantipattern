@@ -5,9 +5,9 @@ import '../styles/home.css'
 import Slider from "./carousel";
 
 const Home = () => {
+  document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.png')");
   return (
-    <div className="d-flex justify-content-center align-content-center content mt-3">
-      
+    <div className="d-flex justify-content-center align-content-center content m-4">
         <Row className="gap-4 w-100">
           <Col className="carousel align-content-center" lg >
             <Slider className="d-flex flex-nowrap align-content-center "></Slider>
@@ -28,7 +28,7 @@ const Home = () => {
                 <li>Tired of putting out fires? <span>That's where we come in</span></li>
               </ul>
               <h3 className="mt-2">Disappointed but undeterred? <br></br> <span>Show us your determination</span> </h3>
-              <Row className="justify-content-center justify-content-lg-start mt-5">
+              <Row className="justify-content-center justify-content-lg-start mt-4">
                 <Col sm='7' md='9'>
                   <InputGroup className="mb-3">
                     <Form.Control

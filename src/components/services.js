@@ -1,41 +1,44 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-
+import jeff  from "../img/Jeff-Chau.jpg";
+import ansel  from "../img/Ansel-Gravelle.jpg";
 const Services = () => {
 
     return (
         <Container className='h-100 content'>
-            <Row className='gap-5 mx-auto justify-content-center'>
+            <Row className='gap-5 mx-auto justify-content-center py-4'>
                 <Row className='flex-column text-center flex-md-row text-md-start align-items-center p-2 gap-5'>
-                    <Col>
+                    <Col lg='7'>
                         <h1 className='yellow'>
                             XGLOBAL CONSULTING
                         </h1>
                         <p>
                             In the ever-evolving web3 space, XGlobal is your navigational beacon. We demystify complexities, plot clear strategies, and transform web3 ambitions into impactful realities. With us you don't just have to adapt to web3, you conquer it.
                         </p>
-                        <Button>
+                        <Button className='services-button'>
                             LET'S TALK
                         </Button>
                     </Col>
-                    <Col className=''>
-                        <h2>Offerings</h2>
-                        <ul>
-                            <li>Operations</li>
-                            <li>Bussiness Development</li>
-                            <li>Community Management</li>
-                            <li>Research Analysis</li>
-                            <li>Software Support</li>
-                            <li>Marketing Services</li>
-                        </ul>
+                    <Col lg='4' className='d-flex justify-content-center justify-md-content-end'>
+                        <div>
+                            <h2>Offerings</h2>
+                            <ul>
+                                <li>Operations</li>
+                                <li>Bussiness Development</li>
+                                <li>Community Management</li>
+                                <li>Research Analysis</li>
+                                <li>Software Support</li>
+                                <li>Marketing Services</li>
+                            </ul>
+                        </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='gap-4'>
                     <h2>Get In Touch</h2>
-                    <Col>
+                    <Col lg>
                         <Row>
                             <Col>
-                                <img></img>
+                                <img src={jeff} className='w-100'></img>
                             </Col>
                             <Col>
                                 <h3>Jeff Chau</h3>
@@ -47,10 +50,10 @@ const Services = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col>
+                    <Col lg>
                         <Row>
                             <Col>
-                                <img></img>
+                                <img src={ansel} className='w-100'></img>
                             </Col>
                             <Col>
                                 <h3>Ansel Gravelle</h3>

@@ -10,7 +10,20 @@
     color: #BCC1CA;
 }
 
+.services-button {
+    background-color: #E9CA1A !important;
+    color: black !important;
+    width: 15vw;
+}
 .content button {
     background-color: #745F8A;
     color: white;
+}
+
+@media (max-width: 1000px) {
+    .services-button {
+        background-color: #E9CA1A !important;
+        color: black !important;
+        width: 40vw;
+    }
 }
