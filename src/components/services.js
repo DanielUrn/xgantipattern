@@ -24,7 +24,7 @@ const Services = () => {
                             <h2>Offerings</h2>
                             <ul className='opacity-25'>
                                 <li>Operations</li>
-                                <li>Bussiness Development</li>
+                                <li>Business Development</li>
                                 <li>Community Management</li>
                                 <li>Research Analysis</li>
                                 <li>Software Support</li>
