@@ -17,12 +17,12 @@ const Home = () => {
               <h2 className="fw-bold">
                 Hey there, I'm Jeff from XGlobal Consulting!
               </h2>
-              <h1 className="fw-bold mt-2"><span>Accelerate your growth.</span> <br></br> XGlobal will help you define a strong growth strategy and execute on it</h1>
+              <h1 className="fw-bold mt-2"><span>Accelerate your growth.</span> <br></br> XGlobal will help you define a strong growth strategy and execute on it.</h1>
               <p className="text-body-secondary mt-2">
                 We've <span>experienced</span> the up's, survived the downs. <br></br>
                 And we want to help you do the same.
               </p>
-              <ul className="mt-2">
+              <ul className="mt-2 mx-3">
                 <li> <span>Dependable</span> consulting partner to pioneers. </li>
                 <li>Book a <span>no-bullsh*t</span> meeting with someone who speaks your language. </li>
                 <li>Tired of putting out fires? <span>That's where we come in.</span></li>

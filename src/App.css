@@ -83,6 +83,7 @@
   display: flex !important;
   flex-wrap: wrap !important;
   align-content: center;
+  border-radius: 100px !important;
 }
 
 ul {
