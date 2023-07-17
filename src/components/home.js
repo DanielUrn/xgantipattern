@@ -13,7 +13,7 @@ const Home = () => {
             <Slider className="d-flex flex-nowrap align-content-center "></Slider>
           </Col>
           <Col lg className="text-center text-lg-start">
-            <div className="">
+            <div>
               <h2 className="fw-bold">
                 Hey there, I'm Jeff from XGlobal Consulting!
               </h2>
@@ -27,7 +27,7 @@ const Home = () => {
                 <li>Book a <span>no-bullsh*t</span> meeting with someone who speaks your language. </li>
                 <li>Tired of putting out fires? <span>That's where we come in</span></li>
               </ul>
-              <h3 className="mt-2">Disappointed but undeterred? <br></br> <span>Show us your determination</span> </h3>
+              <h3 className="mt-2"> Set up your pipeline and solidify your network.  <br></br> <span>Let's chat</span> </h3>
               <Row className="justify-content-center justify-content-lg-start mt-4">
                 <Col sm='7' md='9'>
                   <InputGroup className="mb-3">

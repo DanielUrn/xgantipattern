@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import logo from "../img/XG White.png";
+import logo from "../img/navbrand.png";
 import "../styles/navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +14,7 @@ const Navigation = () => {
           <img 
             src={logo} 
             alt="logo" 
-            width={"80px"} 
+            width={"150px"} 
             height={"50px"}>  
           </img>
         </Navbar.Brand>
@@ -30,7 +30,7 @@ const Navigation = () => {
               <img
                 src={logo}
                 alt="logo"
-                width={"80px"}
+                width={"150px"}
                 height={"50px"}
               ></img>
             </Navbar.Brand>
