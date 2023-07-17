@@ -24,7 +24,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/services">Services</Nav.Link>
+            <Nav.Link href="bit.ly/xglobalGG">Services</Nav.Link>
 
             <Navbar.Brand href="/" className="d-none d-lg-inline-block">
               <img
