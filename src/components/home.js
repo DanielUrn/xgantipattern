@@ -15,7 +15,7 @@ const Home = () => {
           <Col lg className="text-center text-lg-start d-flex align-items-center">
             <div>
               <h2 className="fw-bold">
-                Hey there, I'm Jeff from XGlobal Consulting!
+                Hey there, I'm Jeff from XGlobal!
               </h2>
               <h1 className="fw-bold mt-2"><span>Accelerate your growth.</span> <br></br> XGlobal will help you define a strong growth strategy and execute on it.</h1>
               <p className="text-body-secondary mt-2">
