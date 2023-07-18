@@ -10,7 +10,7 @@ import slider7 from "../img/7.png";
 
 function Slider() {
     return (
-        <Carousel >
+        <Carousel className="rounded">
             <Carousel.Item>
                 <img
                     className="d-block w-100"

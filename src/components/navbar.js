@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import logo from "../img/logoyellow.png";
+import logo from "../img/navbrand.png";
 import "../styles/navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,7 +24,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="https://bit.ly/xglobalGG" target="_blank">Services<BoxArrowUpRight className="mb-1"></BoxArrowUpRight></Nav.Link>
+            <Nav.Link href="https://bit.ly/xglobalGG" target="_blank">Services <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight></Nav.Link>
 
             <Navbar.Brand href="/" className="d-none d-lg-inline-block">
               <img
@@ -36,7 +36,7 @@ const Navigation = () => {
             </Navbar.Brand>
 
             <Nav.Link href="#link" className="text-muted" disabled>Blog</Nav.Link>
-            <Nav.Link href="https://litepaper.xglobal.gg" target="_blank">Litepaper <BoxArrowUpRight className="mb-1"></BoxArrowUpRight> </Nav.Link>
+            <Nav.Link href="https://litepaper.xglobal.gg" target="_blank">Litepaper <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight> </Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

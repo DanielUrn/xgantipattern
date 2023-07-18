@@ -27,7 +27,7 @@ const Home = () => {
                 <li>Book a <span>no-bullsh*t</span> meeting with someone who speaks your language. </li>
                 <li>Tired of putting out fires? <span>That's where we come in.</span></li>
               </ul>
-              <h3 className="mt-2"> Set up your pipeline and solidify your network.  <br></br> <span>Let's chat.</span> </h3>
+              <h3 className="mt-3"> Set up your pipeline and solidify your network.  <br></br> <span>Let's chat.</span> </h3>
               <Row className="justify-content-center justify-content-lg-start mt-4">
                 <Col sm='7' md='9'>
                   <InputGroup className="mb-3">
