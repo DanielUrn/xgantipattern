@@ -10,8 +10,8 @@ const Footer = () => {
 
       <Row>
         <Col md='7' className='d-flex flex-column flex-md-row justify-content-center align-items-center text-center'>
-          <span className='p-1'>XGlobal Singapore Pte Ltd. Copyright 2023.</span>
-          <span className='p-1'><b>All Rights Reserved.</b></span>
+          <span className='p-1 text-white-50'>XGlobal Singapore Pte Ltd. Copyright 2023.</span>
+          <span className='p-1 text-white-50'>All Rights Reserved.</span>
         </Col>
         <Col md='5' className='p-2 d-flex justify-content-center align-items-center gap-3'>
           <a href='mailto:jeff@xglobal.gg' ><EnvelopeFill className='mx-1' size={40}></EnvelopeFill></a>
