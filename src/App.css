@@ -108,6 +108,7 @@ h1, h3{
   }
 
   ul, p {
+    list-style: none;
     font-size: 3vw !important;
   }
   
