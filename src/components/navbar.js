@@ -21,7 +21,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" bsPrefix="" >
           <FontAwesomeIcon icon={faBars} size="xl" className="outline-0 border-0" ></FontAwesomeIcon>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav" className="">
+        <Navbar.Collapse id="basic-navbar-nav" className="Rad">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="https://bit.ly/xglobalGG" target="_blank">Services <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight></Nav.Link>
