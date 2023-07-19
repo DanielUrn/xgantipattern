@@ -1,13 +1,30 @@
-import React from "react";
-import { Form, Button, Container, Row, Col, InputGroup } from "react-bootstrap";
-import team from "../img/jeff2.png";
+import React, {useState} from "react";
+import { Form, Button, Row, Col, InputGroup, ToastContainer, Toast } from "react-bootstrap";
+import logo from "../img/XGlobal White.png";
 import '../styles/home.css'
 import Slider from "./carousel";
-import db from "../services/firestore";
-
-
+import { addUserToTelegram } from "../services/firestore";
 
 const Home = () => {
+  const [user, setUser] = useState('');
+  const [show, setShow] = useState(false)
+
+  const handleOnClick = () => {
+    if(user){
+      addUserToTelegram(user);
+      setUser('')
+      toggleToast()
+    }
+  }
+
+  const handleInputChange = (event) => {
+    setUser(event.target.value);
+  }
+  
+  const toggleToast = () => {
+    setShow(!show)
+  }
+
   document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.png')");
   return (
     <div className="d-flex justify-content-center align-content-center content m-4">
@@ -39,8 +56,12 @@ const Home = () => {
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                       className="rounded-0"
+                      value={user}
+                      onChange={handleInputChange}
                     />
-                    <Button className="rounded-0" variant="outline-secondary" id="button-addon2">
+                    <Button 
+                      onClick={handleOnClick}
+                      className="rounded-0" variant="outline-secondary" id="button-addon2">
                       LET'S TALK
                     </Button>
                   </InputGroup>
@@ -50,7 +71,15 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-      
+      <ToastContainer position="bottom-end" className="m-2">
+        <Toast show={show} onClose={toggleToast}>
+          <Toast.Header className="bg-dark">
+            <img src={logo} className="me-2" alt="toast xglobal logo" width={'100px'} />
+            <strong className="me-auto">Notification</strong>
+          </Toast.Header>
+          <Toast.Body className="bg-dark">Your Telegram Username was successfully sent!</Toast.Body>
+        </Toast>
+      </ToastContainer>
     </div>
   );
 };

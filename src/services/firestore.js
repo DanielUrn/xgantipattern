@@ -1,11 +1,15 @@
-import firebase from '../config/firebase';
-
-const db = firebase.firestore();
+import db from '../config/firebase';
+import { collection, addDoc } from 'firebase/firestore';
 
 // Your Firestore functions here
 
-export function addTelegramUser (){
-    db.collection('websiteUsers')
+export async function addUserToTelegram(user) {
+    try {
+        const docRef = await addDoc(collection(db, "Telegram users"), {
+            user: user,
+        });
+        console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+        console.error("Error adding document: ", e);
+    }
 }
-
-export default db;

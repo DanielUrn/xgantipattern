@@ -1,8 +1,8 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import firebaseJson from '../../xgantipatternFirebase.json'
-const firebaseConfig = firebaseJson
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import firebaseJson from '../xgantipatternFirebase.json'
 
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseJson);
+const db = getFirestore(app);
 
-export default firebase;
+export default db;
