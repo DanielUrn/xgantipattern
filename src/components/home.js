@@ -3,6 +3,9 @@ import { Form, Button, Container, Row, Col, InputGroup } from "react-bootstrap";
 import team from "../img/jeff2.png";
 import '../styles/home.css'
 import Slider from "./carousel";
+import db from "../services/firestore";
+
+
 
 const Home = () => {
   document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.png')");
