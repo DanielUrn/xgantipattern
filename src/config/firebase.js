@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
+import path from 'path'
 
 const filePath = path.join(__dirname, 'firebase-cred.json');
 const jsonDataString = fs.readFileSync(filePath, 'utf-8');
