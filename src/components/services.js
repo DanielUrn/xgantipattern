@@ -38,7 +38,7 @@ const Services = () => {
                     <Col lg>
                         <Row>
                             <Col>
-                                <img src={jeff} className='w-100'></img>
+                                <img src={jeff} className='w-100' alt='Consultants profile pic'></img>
                             </Col>
                             <Col>
                                 <h3 className='yellow semi'>Jeff Chau</h3>
@@ -53,7 +53,7 @@ const Services = () => {
                     <Col lg>
                         <Row>
                             <Col>
-                                <img src={ansel} className='w-100'></img>
+                                <img src={ansel} className='w-100' alt='Consultants profile pic'></img>
                             </Col>
                             <Col>
                                 <h3 className='yellow'>Ansel Gravelle</h3>

@@ -8,12 +8,16 @@ import { addUserToTelegram } from "../services/firestore";
 const Home = () => {
   const [user, setUser] = useState('');
   const [show, setShow] = useState(false)
+  const [showError, setShowError] = useState(false)
 
   const handleOnClick = () => {
     if(user){
-      addUserToTelegram(user);
-      setUser('')
-      toggleToast()
+      const res = addUserToTelegram(user);
+      if(res){
+        setUser('')
+        toggleToast()
+      }
+
     }
   }
 
@@ -23,6 +27,10 @@ const Home = () => {
   
   const toggleToast = () => {
     setShow(!show)
+  }
+
+  const toggleToastError = ()=>{
+    setShowError(!showError)
   }
 
   document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.png')");
@@ -78,6 +86,15 @@ const Home = () => {
             <strong className="me-auto">Notification</strong>
           </Toast.Header>
           <Toast.Body className="bg-dark">Your Telegram Username was successfully sent!</Toast.Body>
+        </Toast>
+      </ToastContainer>
+      <ToastContainer position="bottom-end" className="m-2">
+        <Toast show={showError} onClose={toggleToastError}>
+          <Toast.Header className="bg-dark">
+            <img src={logo} className="me-2" alt="toast xglobal logo" width={'100px'} />
+            <strong className="me-auto">Notification</strong>
+          </Toast.Header>
+          <Toast.Body className="bg-dark">There was a problem sending your Telegram username, please try again or contact us through our socials!</Toast.Body>
         </Toast>
       </ToastContainer>
     </div>
