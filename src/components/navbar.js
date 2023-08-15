@@ -35,7 +35,7 @@ const Navigation = () => {
               ></img>
             </Navbar.Brand>
 
-            <Nav.Link href="#link" className="text-muted" disabled>Blog</Nav.Link>
+            <Nav.Link href="https://blog.xglobal.gg">Blog</Nav.Link>
             <Nav.Link href="https://litepaper.xglobal.gg" target="_blank" rel="noreferrer">Litepaper <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight> </Nav.Link>
 
           </Nav>
