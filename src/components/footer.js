@@ -16,7 +16,6 @@ const Footer = () => {
         <Col md='5' className='p-2 d-flex justify-content-center align-items-center gap-3'>
           <a href='mailto:jeff@xglobal.gg' ><EnvelopeFill className='mx-1' size={40}></EnvelopeFill></a>
           <a href='https://t.me/rip_xg' target='_blank' rel="noreferrer"><FontAwesomeIcon className='mx-1' size="2xl" icon={faPaperPlane} style={{color: "#ffffff",}} /></a>
-          <a href='https://discord.gg/DGYxUBWqex' target='_blank' rel="noreferrer"><Discord className='mx-1' size={40}></Discord></a>
           <a href='https://twitter.com/XGlobalGG?s=20' target='_blank' rel="noreferrer"><Twitter className='mx-1' size={40}></Twitter></a>
 
         </Col>
