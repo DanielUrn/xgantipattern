@@ -7,6 +7,7 @@ import slider4 from "../img/4.png";
 import slider5 from "../img/5.png";
 import slider6 from "../img/6.png";
 import slider7 from "../img/7.png";
+import slider8 from "../img/8.png";
 
 function Slider() {
     return (
@@ -58,6 +59,13 @@ function Slider() {
                 <img
                     className="d-block w-100"
                     src={slider7}
+                    alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={slider8}
                     alt="Third slide"
                 />
             </Carousel.Item>
