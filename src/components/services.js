@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import jeff  from "../img/Jeff-Chau.jpg";
-import ansel  from "../img/Ansel-Gravelle.jpg";
+import jeff  from "../img/Jeff-Chau.webp";
+import ansel  from "../img/Ansel-Gravelle.webp";
 const Services = () => {
 
     return (

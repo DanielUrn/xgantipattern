@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Form, Button, Row, Col, InputGroup, ToastContainer, Toast } from "react-bootstrap";
-import logo from "../img/XGlobal White.png";
+import logo from "../img/XGlobal White.webp";
 import '../styles/home.css'
 import Slider from "./carousel";
 import { addUserToTelegram } from "../services/firestore";
@@ -33,7 +33,7 @@ const Home = () => {
     setShowError(!showError)
   }
 
-  document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.png')");
+  document.documentElement.style.setProperty('--background', "url('./img/DESKTOP.webp')");
   return (
     <div className="d-flex justify-content-center align-content-center content m-4">
         <Row className="gap-4 w-100">

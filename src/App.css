@@ -46,7 +46,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url('./img/DESKTOP.png') ;
+  background: url('./img/DESKTOP.webp') ;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -103,7 +103,7 @@ h1, h3{
 
 @media (max-width: 1000px) {
   #root {
-    background: url('./img/MOBILE\ -\ HOME.png');
+    background: url('./img/MOBILE\ -\ HOME.webp');
     background-size: cover;
   }
 

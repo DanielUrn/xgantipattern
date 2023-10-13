@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import logo from "../img/navbrand.png";
+import logo from "../img/navbrand.webp";
 import "../styles/navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
