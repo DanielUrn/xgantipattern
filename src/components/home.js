@@ -45,16 +45,17 @@ const Home = () => {
               <h2 className="fw-bold">
                 Hey there, We are Jeff and Ansel from XGlobal!
               </h2>
-              <h1 className="fw-bold mt-2"><span>Accelerate your growth.</span> <br></br> XGlobal will help you define a strong growth strategy and execute on it.</h1>
+              <h1 className="fw-bold mt-2"><span>Accelerate your growth.</span></h1>
               <p className="text-body-secondary mt-2">
                 We've <span>experienced</span> the ups and survived the downs. <br></br>
                 We want to help you do the same.
               </p>
               <ul className="mt-2 mx-3">
-                <li> <span>Dependable</span> consulting partner to pioneers. </li>
+                <li> <span>Dependable</span> advisory partner to pioneers. </li>
                 <li>Book a <span>no-bullsh*t</span> meeting with someone who speaks your language. </li>
                 <li>Tired of putting out fires? <span>That's where we come in.</span></li>
               </ul>
+              <h3 className="mt-3"> XGlobal will help you define a strong growth strategy and execute on it.</h3>
               <h3 className="mt-3"> Set up your pipeline and solidify your network.  <br></br> <span>Let's chat.</span> </h3>
               <Row className="justify-content-center justify-content-lg-start mt-4">
                 <Col sm='7' md='9'>
