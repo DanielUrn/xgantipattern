@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import jeff  from "../img/Jeff-Chau.webp";
-import ansel  from "../img/Ansel-Gravelle.webp";
 const Services = () => {
 
     return (
@@ -10,10 +9,10 @@ const Services = () => {
                 <Row className='flex-column text-center flex-md-row text-md-start align-items-center p-2 gap-5'>
                     <Col lg='7'>
                         <h1 className='yellow'>
-                            XGLOBAL CONSULTING
+                            XGLOBAL
                         </h1>
                         <p>
-                            In the ever-evolving web3 space, XGlobal is your navigational beacon. We demystify complexities, plot clear strategies, and transform web3 ambitions into impactful realities. With us you don't just have to adapt to web3, you conquer it.
+                            We demystify complexities, plot clear strategies, and transform web3 ambitions into impactful realities. With us you don't just have to adapt to web3, you conquer it.
                         </p>
                         <Button className='services-button'>
                             LET'S TALK
@@ -43,24 +42,9 @@ const Services = () => {
                             <Col>
                                 <h3 className='yellow semi'>Jeff Chau</h3>
                                 <ul>
-                                    <li>CEO, XGlobal Consulting</li>
-                                    <li className='yellow'>jeff@xglobal.gg</li>
+                                    <li>Me</li>
+                                    <li className='yellow'>jeff@ripxg.com</li>
                                     <li>Telegram: @rip_xg</li>
-                                </ul>
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col lg>
-                        <Row>
-                            <Col>
-                                <img src={ansel} className='w-100' alt='Consultants profile pic'></img>
-                            </Col>
-                            <Col>
-                                <h3 className='yellow'>Ansel Gravelle</h3>
-                                <ul>
-                                    <li>Principal Consultant, XGlobal Consulting</li>
-                                    <li className='yellow'>ansel@xglobal.gg</li>
-                                    <li>Telegram: @ItsAnsel_ETH</li>
                                 </ul>
                             </Col>
                         </Row>

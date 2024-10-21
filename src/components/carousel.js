@@ -3,7 +3,6 @@ import { Carousel } from "react-bootstrap";
 import slider1 from "../img/1.webp";
 import slider2 from "../img/2.webp";
 import slider7 from "../img/7.webp";
-import slider8 from "../img/8.webp";
 
 function Slider() {
     return (

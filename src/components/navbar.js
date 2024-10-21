@@ -4,7 +4,6 @@ import logo from "../img/navbrand.webp";
 import "../styles/navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { BoxArrowUpRight } from "react-bootstrap-icons";
 
 const Navigation = () => {
   return (
@@ -24,8 +23,6 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="Rad">
           <Nav className="align-items-center justify-content-around flex-grow-1 gap-lg-5">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="https://bit.ly/xglobalGG" target="_blank" rel="noreferrer">Services <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight></Nav.Link>
-
             <Navbar.Brand href="/" className="d-none d-lg-inline-block">
               <img
                 src={logo}
@@ -36,8 +33,6 @@ const Navigation = () => {
             </Navbar.Brand>
 
             <Nav.Link href="https://blog.xglobal.gg">Blog</Nav.Link>
-            <Nav.Link href="https://litepaper.xglobal.gg" target="_blank" rel="noreferrer">Litepaper <BoxArrowUpRight className="mb-1" size={10}></BoxArrowUpRight> </Nav.Link>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
