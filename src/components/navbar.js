@@ -32,7 +32,7 @@ const Navigation = () => {
               ></img>
             </Navbar.Brand>
 
-            <Nav.Link href="https://blog.xglobal.gg">Blog</Nav.Link>
+            <Nav.Link href="https://blog.ripxg.com">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

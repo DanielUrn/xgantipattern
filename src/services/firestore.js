@@ -3,9 +3,9 @@ import { collection, addDoc } from 'firebase/firestore';
 
 // Your Firestore functions here
 
-export async function addUserToTelegram(user) {
+export async function addUserTo(user) {
     try {
-        const docRef = await addDoc(collection(db, "Telegram users"), {
+        const docRef = await addDoc(collection(db, "users"), {
             user: user,
         });
         console.log("Document written with ID: ", docRef.id);

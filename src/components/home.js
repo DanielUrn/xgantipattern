@@ -3,7 +3,7 @@ import { Form, Button, Row, Col, InputGroup, ToastContainer, Toast } from "react
 import logo from "../img/XGlobal White.webp";
 import '../styles/home.css'
 import Slider from "./carousel";
-import { addUserToTelegram } from "../services/firestore";
+import { addUserTo } from "../services/firestore";
 
 const Home = () => {
   const [user, setUser] = useState('');
@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleOnClick = () => {
     if(user){
-      const res = addUserToTelegram(user);
+      const res = addUserTo(user);
       if(res){
         setUser('')
         toggleToast()
@@ -50,12 +50,12 @@ const Home = () => {
                 <li> <span>Dependable</span> advisory for leaders looking to grow. </li>
                 <li>Book a <span>no-bullsh*t</span> meeting with someone who speaks your language. </li>
               </ul>
-              <h3 className="mt-3"> Chat with me</h3>
+              <h3 className="mt-3">Join the waiting list</h3>
               <Row className="justify-content-center justify-content-lg-start mt-4">
                 <Col sm='7' md='9'>
                   <InputGroup className="mb-3">
                     <Form.Control
-                      placeholder="Enter your Telegram username"
+                      placeholder="Enter your email"
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                       className="rounded-0"
@@ -80,7 +80,7 @@ const Home = () => {
             <img src={logo} className="me-2" alt="toast xglobal logo" width={'100px'} />
             <strong className="me-auto">Notification</strong>
           </Toast.Header>
-          <Toast.Body className="bg-dark">Your Telegram Username was successfully sent!</Toast.Body>
+          <Toast.Body className="bg-dark">Your email was successfully sent!</Toast.Body>
         </Toast>
       </ToastContainer>
       <ToastContainer position="bottom-end" className="m-2">
@@ -89,7 +89,7 @@ const Home = () => {
             <img src={logo} className="me-2" alt="toast xglobal logo" width={'100px'} />
             <strong className="me-auto">Notification</strong>
           </Toast.Header>
-          <Toast.Body className="bg-dark">There was a problem sending your Telegram username, please try again or contact us through our socials!</Toast.Body>
+          <Toast.Body className="bg-dark">There was a problem sending your email, please try again or contact me through socials!</Toast.Body>
         </Toast>
       </ToastContainer>
     </div>
